@@ -12,10 +12,10 @@ import systems.alexander.morefoliage.blocks.ModBlocks;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MoreFoliage.MODID);
 
-    public static final RegistryObject<Item> SOUR_BERRY = ITEMS.register("sour_berry",
-            () -> new BlockItem(ModBlocks.SOUR_BERRY_BUSH.get(),
+    public static final RegistryObject<Item> DEWBERRY = ITEMS.register("dewberry",
+            () -> new BlockItem(ModBlocks.DEWBERRY_BUSH.get(),
                     new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
-    public static final RegistryObject<Item> SOUR_BERRY_JAM = ITEMS.register("sour_berry_jam",
+    public static final RegistryObject<Item> DEWBERRY_JAM = ITEMS.register("dewberry_jam",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_FOOD)));
 
 }
